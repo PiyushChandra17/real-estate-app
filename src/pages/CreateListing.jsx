@@ -114,8 +114,8 @@ function CreateListing() {
 
       
     } else {
-      latitude = latitude
-      longitude = longitude
+      geolocation.lat = latitude
+      geolocation.lng = longitude
     }
 
 
